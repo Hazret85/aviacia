@@ -1,0 +1,61 @@
+TOP-5 авиакомпаний по пунктуальности:
+carrier  delay_rate  minutes_per_flight
+     YX    0.138098            0.138098
+     HA    0.152782            0.152783
+     PT    0.153169            0.153169
+     9E    0.154389            0.154389
+     QX    0.158093            0.158091
+
+ANTI-TOP-5 авиакомпаний:
+carrier  delay_rate  minutes_per_flight
+     F9    0.280318            0.280308
+     AA    0.256511            0.256511
+     B6    0.250210            0.250210
+     NK    0.234249            0.234248
+     ZW    0.226347            0.226348
+
+TOP-5 аэропортов по пунктуальности:
+airport  delay_rate  minutes_per_flight
+    SPN    0.027322            0.027322
+    STC    0.060000            0.060000
+    PIH    0.077143            0.077171
+    TWF    0.090000            0.090000
+    EAR    0.094340            0.094434
+
+ANTI-TOP-5 аэропортов:
+airport  delay_rate  minutes_per_flight
+    HGR    0.298305            0.298305
+    SFO    0.294978            0.294978
+    BQN    0.290389            0.290393
+    MGW    0.289474            0.289474
+    PSE    0.282999            0.282999
+
+Перевозчики с высоким % Carrier Delay:
+carrier share_carrier
+     HA        56.74%
+     OO        49.96%
+     DL        39.05%
+     B6        36.75%
+     YV        36.44%
+
+Перевозчики с высоким % Late Aircraft Delay:
+carrier share_late_aircraft
+     F9              48.68%
+     WN              47.91%
+     ZW              43.64%
+     AA              42.98%
+     OH              42.73%
+
+ПИК задержек: July 2024 — 28.33%
+МИНИМУМ задержек: October 2024 — 12.92%
+MoM (Dec 2024): +44.38% (14.52% → 20.97%)
+
+Regional Shares:
+   region weather_share operational_share nas_share
+  Midwest         4.85%            70.84%    24.10%
+    South         3.81%            68.81%    27.11%
+Northeast         3.37%            64.16%    32.25%
+     West         3.28%            69.58%    26.85%
+    Other         3.15%            67.91%    28.47%
+
+Process finished with exit code 0
